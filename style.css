@@ -1,0 +1,117 @@
+h1 {
+    background-color: #004175;
+    border: #89DEEF;
+    color: white;
+    padding: 2rem;
+    border-bottom: 0.3rem;
+}
+
+body {
+    font-family: "Open Sans";
+    padding: white;
+}
+
+.dogprofile h3 {
+    font-family: "Oswald";
+    justify-content: left;
+
+}
+
+.dogprofile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 32.2%;
+    border: 50px;
+    border-radius: 100px;
+    border-color: white;
+    padding: 5px
+}
+
+.dogattributes {
+    font-family: "Open Sans";
+    list-style: none;
+    display: inline-block;
+    margin: 2px 2px;
+    flex-direction: row;
+    padding: 1px
+}
+
+.dogattributes li {
+    background-color: #89DEEF;
+    border-radius: 2rem;
+    display: inline-block;
+    flex-wrap: wrap;
+    border-radius: 3rem;
+    padding: 0.3rem 0.6rem;
+    margin: 4px;
+
+
+}
+
+
+.dogpic {
+    width: 100%
+}
+
+#dogs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footers {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Oswald";
+    color: white;
+    text-align: center;
+    flex: 1 1 auto;
+}
+
+.Format {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 33.4%;
+    height: 18rem;
+
+}
+
+.Donate {
+
+    background:
+        linear-gradient(rgba(166, 169, 240, 0.67),
+            rgba(166, 169, 240, 0.67)),
+        url(../dog-adoption-cbmosley/starter_files/images/donate.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.Volunteer {
+    background:
+
+        linear-gradient(rgba(166, 169, 240, 0.67),
+            rgba(166, 169, 240, 0.67)),
+        url(../dog-adoption-cbmosley/starter_files/images/volunteer.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.Our_location {
+
+    background:
+        linear-gradient(rgba(166, 169, 240, 0.67),
+            rgba(166, 169, 240, 0.67)),
+        url(../dog-adoption-cbmosley/starter_files/images/location.png);
+    background-size: cover;
+    background-position: center;
+
+
+}
